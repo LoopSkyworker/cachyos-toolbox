@@ -21,7 +21,7 @@ echo "  Shader Cache Cleanup (NVIDIA/Vulkan/Mesa/Steam)"
 echo "  $(date '+%Y-%m-%d %H:%M:%S')"
 echo "════════════════════════════════════════════════════════════"
 
-# 
+# Go through all local user directories
 for user_home in /home/*; do
     [ -d "$user_home" ] || continue
     username=$(basename "$user_home")
@@ -66,7 +66,7 @@ fi
 
 echo ""
 echo "════════════════════════════════════════════════════════════"
-echo "  SUMMARY"
+echo "  S U M M A R Y "
 echo "────────────────────────────────────────────────────────────"
 echo "  Deleted: $TOTAL_DELETED directories"
 echo "  Skipped: $TOTAL_SKIPPED directories"
@@ -75,5 +75,5 @@ echo "  Freed  : $TOTAL_HUMAN"
 echo "════════════════════════════════════════════════════════════"
 echo ""
 
-# For executing via desktop shortcut, pause briefly so that the user can see the results
+# For executing via desktop shortcut, pause the script so that the user can see the results
 read -n 1 -s -r -p ">>> Press any key to close the window <<<"
