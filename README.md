@@ -1,6 +1,6 @@
 # Small helpful tidbits for CachyOS
 
-Various scripts and instructions for the Linux Distribution **CachyOS**.
+Various scripts and instructions for the glorious Linux Distribution **CachyOS**.
 
 ## License
 
