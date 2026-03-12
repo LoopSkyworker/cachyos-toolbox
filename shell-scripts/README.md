@@ -2,8 +2,10 @@
 
 Here you will find some useful shell scripts for Linux. Even though many of the scripts may work under other distributions, they are basically written specifically for CachyOS.
 
+> Zur [deutschen Version](README.de.md) wechseln.
+
 > [!NOTE]
-> If you don't know how to set up and use shell scripts in general, read the brief [instructions](#how-to-set-up-and-use-shell-scripts) at the bottom of this page.
+> If you don't know how to set up and use shell scripts in general, read the brief [instructions](#💡-how-to-set-up-and-use-shell-scripts) at the bottom of this page.
 
 ---
 
@@ -13,7 +15,7 @@ Here you will find some useful shell scripts for Linux. Even though many of the 
 
 This script cleans up the generated shader cache for all local user accounts under /home/. It looks for the various directory paths where shader caches for NVIDIA, Steam/Proton, Mesa, Vulkan and Wine are usually stored. A summary is then displayed to the user.
 
-Please note that this script cannot clean up all shader cache directories for every application out there. Many programs use their own shader cache directory. However, games should be covered.
+Please note that this script cannot clean up all shader cache directories for every application out there. Many programs use their own shader cache directory. However, games should be covered well.
 
 **What is the shader cache?** 
 
@@ -23,7 +25,7 @@ When you start a game or a compatible program like a 3D rendering software or a 
 
 A new graphics card driver often "communicates" with the hardware slightly differently than the old one. The shaders stored in the cache are then no longer fully compatible with the new driver – like instructions written for an older version of a device. This can lead to graphics errors, crashes, or poorer performance. This is particularly relevant on Linux because the system often does not automatically recognize and discard old shader caches as obsolete, as Windows drivers more frequently do. It is therefore recommended to cleanup the shader cache after a graphics card driver update, as well as after kernel updates that affected the NVIDIA modules.
 
-Clearing the shader cache is, of course, not a guaranteed cure for graphics or performance issues. But it doesn't hurt either, and it doesn't negatively affect the system. However, keep in mind that the cache will be rebuilt and adjusted the next time the game or program is started. During this process, you may experience brief stuttering or reduced performance.
+Clearing the shader cache is, of course, not a guaranteed cure for graphics or performance issues. But it doesn't negatively affect the system, either. However, keep in mind that the cache will be rebuilt and adjusted the next time the game or program is started. During this process, you may experience brief stuttering or reduced performance.
 
 ---
 
