@@ -2,7 +2,7 @@
 
 Various scripts and guides for the glorious Linux Distribution **CachyOS**.
 
-> Zur [deutschen Version](/README.de) wechseln.
+> Zur [deutschen Version](/README.de.md) wechseln.
 
 ## ⚖️ License
 

@@ -2,7 +2,7 @@
 
 Verschiedene Skripte und Anleitungen für die glorreiche Linux-Distribution **CachyOS**.
 
-> Switch to [english version](/README).
+> Switch to [english version](/README.md).
 
 ## ⚖️ Lizenz
 
