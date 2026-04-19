@@ -2,7 +2,7 @@
 
 Hier findest du einige nützliche Shell-Skripte für Linux. Auch wenn viele der Skripte unter anderen Distributionen funktionieren dürften, sind sie grundsätzlich speziell für CachyOS geschrieben.
 
-> Switch to [english version](/README.md).
+> Switch to [english version](/shell-scripts/README.md).
 
 > [!NOTE]
 > Wenn du nicht weißt, wie man Shell-Skripte im Allgemeinen einrichtet und verwendet, lies dazu die kurze [Anleitung](#💡-so-richtest-du-shell-skripte-ein-und-verwendest-sie) am Ende dieser Seite.
