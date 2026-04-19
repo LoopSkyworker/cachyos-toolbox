@@ -2,16 +2,16 @@
 
 Hier findest du einige nützliche Shell-Skripte für Linux. Auch wenn viele der Skripte unter anderen Distributionen funktionieren dürften, sind sie grundsätzlich speziell für CachyOS geschrieben.
 
-> Switch to [english version](README.md).
+> Switch to [english version](/README.md).
 
 > [!NOTE]
 > Wenn du nicht weißt, wie man Shell-Skripte im Allgemeinen einrichtet und verwendet, lies dazu die kurze [Anleitung](#💡-so-richtest-du-shell-skripte-ein-und-verwendest-sie) am Ende dieser Seite.
 
 ---
 
-## cleanup-shader-cache.sh
+## shader-cache-auto-refresh.sh
 
-**Was dieses Shell-Skript macht** 
+**Was dieses Skript macht** 
 
 Dieses Skript bereinigt den generierten Shader-Cache für alle lokalen Benutzerkonten unter /home/. Es sucht nach den verschiedenen Verzeichnispfaden, in denen Shader-Caches für NVIDIA, Steam/Proton, Mesa, Vulkan und Wine normalerweise gespeichert sind. Anschließend wird dem Benutzer eine Zusammenfassung angezeigt.
 
@@ -55,10 +55,10 @@ sh ~/.local/bin/SCRIPTNAME.sh
 
 ## ⚖️ Lizenz
 
-Die Lizenzrechte und -beschränkungen (MIT) findest du in der Datei [LICENSE](LICENSE.md).
+Die Lizenzrechte und -beschränkungen (MIT) findest du in der Datei [LICENSE](/LICENSE.md).
 
 ---
 
 ## ✋ Haftungsausschluss
 
-Diese Software wird "wie besehen" ohne jegliche Gewährleistung bereitgestellt.
+Diese Software wird ohne jegliche Gewährleistung bereitgestellt. Die Nutzung erfolgt auf eigene Verantwortung.

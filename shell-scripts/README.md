@@ -2,16 +2,16 @@
 
 Here you will find some useful shell scripts for Linux. Even though many of the scripts may work under other distributions, they are basically written specifically for CachyOS.
 
-> Zur [deutschen Version](README.de.md) wechseln.
+> Zur [deutschen Version](/README.de.md) wechseln.
 
 > [!NOTE]
 > If you don't know how to set up and use shell scripts in general, read the brief [instructions](#💡-how-to-set-up-and-use-shell-scripts) at the bottom of this page.
 
 ---
 
-## cleanup-shader-cache.sh
+## shader-cache-auto-refresh.sh
 
-**What this shell script does** 
+**What this script does** 
 
 This script cleans up the generated shader cache for all local user accounts under /home/. It looks for the various directory paths where shader caches for NVIDIA, Steam/Proton, Mesa, Vulkan and Wine are usually stored. A summary is then displayed to the user.
 
@@ -55,10 +55,10 @@ sh ~/.local/bin/SCRIPTNAME.sh
 
 ## ⚖️ License
 
-See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](/LICENSE.md) file for license rights and limitations (MIT).
 
 ---
 
 ## ✋ Disclaimer
 
-This software is provided "as is" without any warranty of any kind.
+This software is provided "as is", without warranty of any kind. Use at your own risk.

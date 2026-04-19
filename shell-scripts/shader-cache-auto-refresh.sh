@@ -2,14 +2,15 @@
 
 # The various directories that can provide shader caches
 CACHE_DIRS=(
-    ".cache/nvidia"
-    ".cache/dxvk"
-    ".cache/mesa_shader_cache"
-    ".cache/mesa_shader_cache_db"
-    ".nv/GLCache"
-    ".cache/vulkan_pipeline_cache"
-    ".steam/steam/steamapps/shadercache"
-    ".local/share/Steam/steamapps/shadercache"
+    ".cache/nvidia" 
+    ".cache/dxvk" 
+    ".nv/GLCache" 
+    ".nv/ComputeCache" 
+    ".cache/mesa_shader_cache" 
+    ".cache/mesa_shader_cache_db" 
+    ".cache/vulkan_pipeline_cache" 
+    ".steam/steam/steamapps/shadercache" 
+    ".local/share/Steam/steamapps/shadercache" 
 )
 
 TOTAL_FREED=0
@@ -17,10 +18,7 @@ TOTAL_DELETED=0
 TOTAL_SKIPPED=0
 TOTAL_FAILED=0
 
-echo "════════════════════════════════════════════════════════════"
-echo "  Shader Cache Cleanup (NVIDIA/Vulkan/Mesa/Steam)"
-echo "  $(date '+%Y-%m-%d %H:%M:%S')"
-echo "════════════════════════════════════════════════════════════"
+echo -e "╔═══════════════════════════════════════════╗\n║                                           ║\n║  ███████╗ ██████╗ █████╗ ██████╗          ║\n║  ██╔════╝██╔════╝██╔══██╗██╔══██╗         ║\n║  ███████╗██║     ███████║██████╔╝         ║\n║  ╚════██║██║     ██╔══██║██╔══██╗         ║\n║  ███████║╚██████╗██║  ██║██║  ██║         ║\n║  ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝         ║\n║                                           ║\n║   Shader Cache Auto Refresh               ║\n╚═══════════════════════════════════════════╝\n"
 
 # Go through all local user directories
 for user_home in /home/*; do
@@ -49,20 +47,20 @@ for user_home in /home/*; do
                 TOTAL_FAILED=$((TOTAL_FAILED + 1))
             fi
         else
-            echo "│  ⏭  SKIPPED │ n/a    │ ${full_path} (not available)"
+            echo "│  ⏭  SKIPPED    │ n/a    │ ${full_path} (not available)"
             TOTAL_SKIPPED=$((TOTAL_SKIPPED + 1))
         fi
     done
 
     echo "│"
-    echo "└─────────────────────────────────────────────────────"
+    echo "└───────────────────────────────────────────────────────────"
 done
 
 # Convert total size to human-readable format
 if [ "$TOTAL_FREED" -gt 0 ] 2>/dev/null; then
     TOTAL_HUMAN=$(numfmt --to=iec --suffix=B "$TOTAL_FREED" 2>/dev/null || echo "${TOTAL_FREED} Bytes")
 else
-    TOTAL_HUMAN="0B"
+    TOTAL_HUMAN="0 B"
 fi
 
 echo ""
