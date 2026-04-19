@@ -2,7 +2,7 @@
 
 Here you will find some useful shell scripts for Linux. Even though many of the scripts may work under other distributions, they are basically written specifically for CachyOS.
 
-> Zur [deutschen Version](/README.de) wechseln.
+> Zur [deutschen Version](/README.de.md) wechseln.
 
 > [!NOTE]
 > If you don't know how to set up and use shell scripts in general, read the brief [instructions](#💡-how-to-set-up-and-use-shell-scripts) at the bottom of this page.
