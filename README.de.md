@@ -2,11 +2,11 @@
 
 Verschiedene Skripte und Anleitungen für die glorreiche Linux-Distribution **CachyOS**.
 
-> Switch to [english version](/README.md).
+> Switch to [english version](/README).
 
 ## ⚖️ Lizenz
 
-Die Lizenzrechte und -beschränkungen (MIT) findest du in der Datei [LICENSE](/LICENSE.md).
+Die Lizenzrechte und -beschränkungen (MIT) findest du in der Datei [LICENSE](/LICENSE).
 
 ## ✋ Haftungsausschluss
 

@@ -2,11 +2,11 @@
 
 Various scripts and guides for the glorious Linux Distribution **CachyOS**.
 
-> Zur [deutschen Version](/README.de.md) wechseln.
+> Zur [deutschen Version](/README.de) wechseln.
 
 ## ⚖️ License
 
-See the [LICENSE](/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
 
 ## ✋ Disclaimer
 
